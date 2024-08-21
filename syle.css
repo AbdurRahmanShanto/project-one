@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poetsen+One&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Lato", sans-serif;
+    width: 100%;
+    color: #0B0736;
+}
+
+/* ==============NAVBAR=========== */
+
+.navber{
+    
+    max-width: 90%;
+    margin: 0px auto;
+
+    .logo{
+        display: flex;
+        margin-top: 10px;
+        font-size: 30px;
+        gap: 50px;
+
+        & button{
+            margin-top: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 40px;
+            font-size: 16px;
+            width: 120px;
+            margin-left: 20px;
+            border: 1px solid #DCDCDC;
+            background-color: #fff;
+
+            & img{
+                margin-right: 10px;
+        }
+    }
+}
+
+
+
+    /* ==================HERO SECTION============== */
+
+.hero_Message{
+        
+        & p{
+            margin-right: 250px;
+            color: #0B0736;
+            font-size: 30px;
+        }
+        &  h1{
+        margin-top: 250px;
+        font-size: 8em;
+
+        }
+        & button{
+            height: 50px;
+            color: aliceblue;
+            width: 120px;
+            background-color: #0B0736;
+            font-size: 16px;
+            margin-right: 420px;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+    }
+    .image img{
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 50dvw;
+        z-index: -255;
+        
+    }
+}
+
+
+/* =================       second section  ==================== */
+
+
+
+.second_hero {
+    margin-top: 300px;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    align-items: center;
+}
+    
+.second_hero .image_target {
+    object-fit: cover;
+    max-width: 100%;
+    margin: 0 auto;
+}
+    
+.headingg {
+    text-align: center;
+}
+    
+.headingg h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+    
+.headingg p {
+    font-size: 1.5em;
+    color: #808080;
+    margin-bottom: 20px;
+    }
+    
+.headingg button {
+    border-radius: 8px;
+    font-size: 1.2em;
+    display: flex;
+    border: none;
+    background-color: #cce8fd;
+    outline: none;
+    margin-left: 50px;
+    cursor: pointer;
+}
+    
+@media screen and (max-width: 768px) {
+        .second_hero {
+            margin-top: 250px;
+}
+    
+    .headingg h1 {
+        font-size: 2em;
+    }
+    
+    .headingg p {
+    font-size: 1em;
+    }
+}
+    
+
+/* ======================      third section  ================ */
+
+.main_container {
+    margin-top: 350px;
+    position: relative;
+}
+
+.grid_section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+    padding: 20px;
+    margin-top: -800px;
+
+
+}
+
+.heading h1 {
+    font-size: 3em;
+    text-align: center;
+}
+
+.all_image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.all_image img {
+    width: 200px;
+    height: auto;
+    margin: 10px;
+}
+
+.right_container {
+    text-align: center;
+}
+
+.headdin_2 h1 {
+    font-size: 1.5em;
+}
+
+.icon_and_text,
+.seconod_and_text {
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .main_container {
+        margin-top: 250px;
+    }
+
+    .heading h1 {
+        font-size: 2em;
+    }
+
+    .all_image img {
+        width: 150px;
+    }
+
+    .headdin_2 h1 {
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .main_container {
+        margin-top: 200px;
+    }
+
+    .grid_section {
+        grid-template-columns: 1fr;
+    }
+
+    .heading h1 {
+        font-size: 1.5em;
+    }
+
+    .all_image img {
+        width: 100px;
+    }
+
+    .headdin_2 h1 {
+        font-size: 0.8em;
+    }
+}
+
+/* ==================      FOUR SECTIONN               ============= */
+.four_secti {
+    margin-top: 300px;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading_one .image_target {
+    object-fit: cover;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.heading_one {
+    text-align: center;
+}
+
+.heading_one h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.heading_one p {
+    font-size: 1.5em;
+    color: #808080;
+    margin-bottom: 20px;
+}
+
+.heading_one button {
+    border-radius: 8px;
+    font-size: 1.2em;
+    display: flex;
+    border: none;
+    background-color: #cce8fd;
+    outline: none;
+    margin-left: 20px; 
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    .four_secti {
+        margin-top: 250px;
+    }
+
+    .heading_one button {
+        margin-left: 0;
+    }
+}
+
+.five_cestion{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.five_cestion  {
+    max-width: 100%;
+    height: auto;
+}
+
+.last_section{
+    height: auto;
+    width: 90%;
+    background-color: #cce8fd;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 100px;
+    margin: 100px;
+
+    .head{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .head h1{
+        font-size: 4em;
+    }
+
+}
+.last_section  img{ 
+
+        object-fit: cover;
+        max-width: 50dvw;
+        height: auto;
+        margin: 0 auto;
+}
+
+.button button{
+    border-radius: 8px;
+    font-size: 1.2em;
+    display: flex;
+    border: none;
+    background-color: #0B0736;
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+
+}
+
+.copyright{
+    text-align:center;
+    margin-bottom: 20px;
+    color: #808080;
+}
